@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>assignment3</title>
+</head>
+<body>
+    <section class="head bg-inherit bg-red-200 hanphone:bg-gray-600 lg:1/2">
+        <nav class="nav">
+            <ul class="flex text-lg font-semibold justify-end">
+                <li class="pr-2">About Me</li>
+                <li class="pr-2">Experience</li>
+                <li class="pr-2">Contact</li>
+            </ul>
+        </nav>
+        <h1 class="text-2xl text-center">Muhammad Hidayat</h1>
+        <div class="flex flex-wrap hanphone:bg-gray-600 ">
+            <div class="pr-4 pb-4">
+                <img class="rounded-3xl pl-3 w-60 flex-none " src="image/dayat.png" alt="ini dayat">
+            </div>
+            <br>
+            <div class="flex-1">
+                <h2 class="text-2xl pr-2">About Me</h2>
+                <p class="pr-4">
+                    Saya adalah mahasiswa dari prodi Sistem Informasi yang antusias dan bermotivasi tinggi dengan kemampuan inisiatif dan mencari tantangan baru.Saya juga mengikuti organisasi external kampus
+                </p>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="text-center">
+        <main >
+            <div >
+                <h2 class="text-3xl font-bold pl-2">Pendidikan</h2>
+            </div>
+            <hr>
+            <div class="pl-2">
+                <h3 class="text-2xl font-semibold">SMK Negeri 1 Sigli</h3>
+                <p>Lulusan SMK negeri 1 Sigli jurusan Teknik Komputer dan Jaringan</p>
+                <h3 class="text-2xl font-semibold">Universitas Malikussaleh</h3>
+                <p>Mahasiswa jurusan Sistem Informasi</p>
+            </div>
+            <br>
+                <div class="pl-2">
+                    <h2 class="text-3xl font-bold">Work Experience</h2>
+                </div>
+                <hr>
+                <div class="grid-rows-1 gap-1 border to-black pl-2">
+                    <h3 class="text-2xl font-semibold">Unix Computer</h3>
+                    <p class="font-semibold">Magang di unix computer</p>
+                    <ul class="list-disc">
+                        <li>Memeriksa dan memperbaiki laptop, computer, dan monitor yang bermasalah</li>
+                        <li>Melakukan pelatihan dalam jaringan, pemecahan masalah serta konfigurasi sistem instalasi pada komputer maupun laptop</li>
+                        <li>Memperbaiki segala permasalahan yang terjadi sewaktu-waktu pada jaringan komputer</li>
+                    </ul>
+                    <h3 class="text-2xl font-semibold">P4TK Medan</h3>
+                    <p class="font-semibold">Peserta magang</p>
+                    <ul class="list-disc">
+                        <li>Rancangan membangun jaringan wireless menggunakan mikrotik</li>
+                        <li>Membangun web server di linux ubuntu</li>
+                    </ul>
+                </div>
+                </div>
+            <br>
+            <div>
+                <h2 class="text-3xl font-bold pl-2">link Sosmed</h2>
+                <hr>
+                    <ul class="list-disc grid grid-cols-2 gap-2 pl-5">
+                        <li><a target="_blank" href="https://www.linkedin.com/in/muhammad-hidayat-48b844244/">linkedin</a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/m.hidayat.507027">Facebook</a></li>
+                    </ul>
+            </div>
+        </main>
+        <br>
+        <div class="pl-2 bg-pink-500">
+            <form>
+                <label for="name">Nama:</label><br>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama" ><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" placeholder="Masukkan email" >
+            </form>
+            <div class="pt-3">
+                <button class="bg-gray-400 p-3 rounded-xl hover:bg-gray-500">kirim</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
